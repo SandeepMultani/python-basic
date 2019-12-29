@@ -1,7 +1,8 @@
 age = 28 # age is of type int
 name = "Sandeep" # name is of type str - string
 
-print("Hi. My name is " + name + ". I am " + str(age) + " years old.")
+
+print("Hi. My name is " + name + ". I am " + str(age) + " years old.") 
 
 # valid variable names
 # age
