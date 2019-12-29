@@ -13,10 +13,12 @@ simple_func()
 print("""Outside - after function call: 
 Python is """ + how_is_python)
 
+
 def global_keyword_demo_func():
     global how_is_python
     how_is_python = "easy to learn."
     print("Inside func: Python is " + how_is_python)
+
 
 global_keyword_demo_func()
 

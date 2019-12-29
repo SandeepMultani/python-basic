@@ -16,7 +16,9 @@ output_msg = "My salary is ${} but I can only save ${} a month."
 print(output_msg.format(salary, savings))
 print("I spend $" + str(car) + " on my car.")
 print(("My bill are ${} and I spend ${} on food.").format(bills, food))
+print("My bill are ${1} and I spend ${0} on food.".format(food, bills))
 print("########################")
+print(len("########################"))
 
 
 # set multiple variables with same value
